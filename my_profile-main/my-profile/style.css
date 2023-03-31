@@ -1,0 +1,599 @@
+@font-face {
+	font-family: 'bubble_font_1';
+	src: url(../fonts/bubble_font_1/BubbleBobble-rg3rx.ttf);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #ffe0e9;
+	color: #58504A;
+	font-family: courier;
+	font-size: 12px;
+	font-weight: 200;
+}
+
+.container {
+	margin: 0;
+	position: relative;
+}
+
+.image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 600px;
+	margin-top: 80px;
+	position: absolute;
+	z-index: 1;
+}
+
+
+.presentation {
+	border-radius: 30px;
+	padding: 30px;
+	font-size: 15px;
+}
+
+.DonutsTea {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+}
+
+#title {
+	font-family: 'bubble_font_1', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	padding: 30px;
+	text-transform: uppercase;
+	color: #58504A;
+	background-color: #fde7ed;
+	box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+	font-family: 'bubble_font_1';
+	font-weight: 700;
+	padding-bottom: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #0000000e;
+}
+
+p {
+	font-family: Kanit;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.image img {
+	width: 201px;
+	height: 201px;
+	border-radius: 100%;
+}
+
+.DonutsTea a {
+	color: #0000006b;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.donutlink {
+	background-color: #00000017;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	position: absolute;
+	margin-top: 645px;
+	margin-left: 275px;
+	z-index: 2;
+	transition: all 0.2s ease;
+}
+
+.donutlink:hover {
+	transform: scale(1.05);
+	color: #ffe0e9;
+	background-color: #372554;
+	box-shadow: inset;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.Horse-riding {
+	border-radius: 100px;
+	padding: 30px;
+	margin: 30px;
+}
+
+.Nature {
+	border-radius: 100px;
+	padding: 30px;
+	margin: 30px;
+}
+
+.Photos {
+	border-radius: 100px;
+	padding: 30px;
+	margin: 30px;
+}
+
+.Cooking {
+	border-radius: 100px;
+	padding: 30px;
+	margin: 30px;
+}
+
+.School {
+	border-radius: 100px;
+	padding: 30px;
+	margin: 30px;
+}
+
+.rond {
+	background: #D3C4E3;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 150px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	margin-left: 245px;
+}
+
+.rond_2 {
+	background: #8F95D3;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 400px;
+	margin-top: 100px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.rond3 {
+	background: #D3C4E3;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 150px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	margin-left: 890px;
+}
+
+.rond4 {
+	background: #D3C4E3;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 150px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	margin-left: 650px;
+}
+
+.rond5 {
+	background: #D3C4E3;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 150px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	margin-left: 225px;
+}
+
+.rond6 {
+	background: #D3C4E3;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 150px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	margin-left: 789px;
+}
+
+.fleche img {
+	width: 115px;
+	height: 115px;
+	position: absolute;
+	margin-left: 770px;
+	margin-top: 200px;
+}
+
+.partieune {
+	background-color: #0000000c;
+	padding-bottom: 70px;
+	box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.website span {
+	position: absolute;
+	bottom: 50px;
+	background: transparent;
+	border-radius: 50%;
+
+	pointer-events: none;
+	box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+	z-index: 9999;
+}
+
+.presentation_text {
+	color: #00000076;
+}
+
+.footer {
+	padding: 40px 0;
+	background-color: #fde7ed;
+	box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.footer .social {
+	text-align: center;
+	padding-bottom: 25px;
+	color: #4B4C4D;
+}
+
+.footer .social a {
+	font-size: 24px;
+	color: inherit;
+	border: 1px solid #ccc;
+	width: 40px;
+	height: 40px;
+	line-height: 38px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0 8px;
+	opacity: 0.75;
+}
+
+.footer .social a:hover {
+	opacity: 0.9;
+}
+
+.footer ul {
+	margin-top: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.footer ul li a {
+	color: inherit;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.footer ul li {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.footer ul li a:hover{
+	opacity: 1;
+}
+
+.footer .copyright {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #aaa;
+}
+
+.horse_img {
+	position: absolute;
+	margin-left: 700px;
+}
+
+.nature_img {
+	position: absolute;
+	margin-left: 400px;
+}
+
+.horse_img img {
+	width: 300px;
+	height: 400px;
+	border-radius: 46% 54% 35% 65% / 63% 26% 74% 37% ;
+	box-shadow: 2px 2px 10px #d2b1ba;
+}
+
+.nature_img img {
+	width: 300px;
+	height: 400px;
+	border-radius: 30% 70% 70% 30% / 30% 56% 44% 70% ;
+	box-shadow: 2px 2px 10px #d2b1ba;
+}
+
+.other_img {
+	position: absolute;
+	margin-left: 200px;
+}
+
+.other_img img {
+	width: 300px;
+	height: 400px;
+	border-radius: 30% 70% 38% 62% / 72% 38% 62% 28% ;
+	box-shadow: 2px 2px 10px #d2b1ba;
+}
+
+.food_img {
+	position: absolute;
+	margin-left: 650px;
+}
+
+.food_img img {
+	width: 300px;
+	height: 400px;
+	border-radius: 75% 25% 55% 45% / 72% 71% 29% 28% ;
+	box-shadow: 2px 2px 10px #d2b1ba;
+}
+
+.school_img {
+	position: absolute;
+	margin-left: 350px;
+}
+
+.school_img img {
+	width: 300px;
+	height: 400px;
+	border-radius: 75% 25% 55% 45% / 10% 85% 15% 90% ;
+	box-shadow: 2px 2px 10px #d2b1ba;
+}
+
+img:hover {
+	transform: scale(1.1);
+	transition: all 0.2s;
+}
+
+img {
+	transition: all 0.2s;
+}
+
+.hidden {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(-100%);
+	transition: all 1s;
+}
+
+.show {
+	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0);
+}
+
+@media screen and (max-width : 760px) {
+	
+	body {
+		font-size: 3.56px;
+	}
+	
+	.image {
+		margin-left: 178px;
+		margin-top: 23.73px;
+	}
+	
+	
+	.presentation {
+		padding: 8.90px;
+		font-size: 4.45px;
+	}
+	
+	.DonutsTea {
+		padding: 8.90px;
+	}
+	
+	#title {
+		font-size: 4.45px;
+		padding: 8.90px;
+	}
+	
+	h2 {
+		padding-bottom: 4.45px;
+	}
+	
+	a {
+		font-size: 4.45px;
+	}
+	
+	.image img {
+		width: 59.64px;
+		height: 59.64px;
+	}
+	
+	.donutlink {
+		padding: 2.97px 5.93px 2.97px 5.93px;
+		margin-top: 191.39px;
+		margin-left: 81.60px;
+	}
+	
+	.Horse-riding {
+		padding: 8.90px;
+		margin: 8.90px;
+	}
+	
+	.Nature {
+		padding: 8.90px;
+		margin: 8.90px;
+	}
+	
+	.Photos {
+		padding: 8.90px;
+		margin: 8.90px;
+	}
+	
+	.Cooking {
+		padding: 8.90px;
+		margin: 8.90px;
+	}
+	
+	.School {
+		padding: 8.90px;
+		margin: 8.90px;
+	}
+	
+	.rond {
+		width: 89px;
+		height: 89px;
+		margin: 44.51px;
+		margin-left: 72.70px;
+	}
+	
+	.rond_2 {
+		width: 89px;
+		height: 89px;
+		margin-left: 118.69px;
+		margin-top: 29.67px;
+	}
+	
+	.rond3 {
+		width: 89px;
+		height: 89px;
+		margin: 44.51px;
+		margin-left: 264px;
+	}
+	
+	.rond4 {
+		width: 89px;
+		height: 89px;
+		margin: 44.51px;
+		margin-left: 192.88px;
+	}
+	
+	.rond5 {
+		width: 89px;
+		height: 89px;
+		margin: 44.51px;
+		margin-left: 66.76px;
+	}
+	
+	.rond6 {
+		width: 89px;
+		height: 89px;
+		margin: 44.51px;
+		margin-left: 234.12px;
+	}
+	
+	.fleche img {
+		width: 34.12px;
+		height: 34.12px;
+		margin-left: 228.49px;
+		margin-top: 59.35px;
+	}
+	
+	.partieune {
+		padding-bottom: 20.77px;
+	}
+	
+	.footer {
+		padding: 11.87px 0;
+	}
+	
+	.footer .social {
+		padding-bottom: 7.42px;
+	}
+	
+	.footer .social a {
+		font-size: 7.12px;
+		width: 11.87px;
+		height: 11.87px;
+		line-height: 11.27px;
+		margin: 0 2.37px;
+	}
+	
+	.footer ul {
+		font-size: 5.34px;
+		line-height: 0.47;
+	}
+	
+	.footer ul li {
+		display: inline-block;
+		padding: 0 4.45px;
+	}
+	
+	.footer .copyright {
+		margin-top: 4.45px;
+		font-size: 3.86px;
+	}
+	
+	.horse_img {
+		margin-left: 207.71px;
+	}
+	
+	.nature_img {
+		margin-left: 118.69px;
+	}
+	
+	.horse_img img {
+		width: 89.02px;
+		height: 118.69px;
+	}
+	
+	.nature_img img {
+		width: 89.02px;
+		height: 118.69px;
+	}
+	
+	.other_img {
+		margin-left: 59.35px;
+	}
+	
+	.other_img img {
+		width: 89.02px;
+		height: 118.69px;
+	}
+	
+	.food_img {
+		margin-left: 192.88px;
+	}
+	
+	.food_img img {
+		width: 89.02px;
+		height: 118.69px;
+	}
+	
+	.school_img {
+		margin-left: 103.86px;
+	}
+	
+	.school_img img {
+		width: 89.02px;
+		height: 118.69px;
+	}
+
+}
+
+
+
